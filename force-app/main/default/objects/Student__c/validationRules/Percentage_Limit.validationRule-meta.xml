@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percentage_Limit</fullName>
+    <active>true</active>
+    <description>Ensures percentage is ≤ 100</description>
+    <errorConditionFormula>Percentage__c &gt; 100</errorConditionFormula>
+    <errorDisplayField>Percentage__c</errorDisplayField>
+    <errorMessage>Percentage cannot be more than 100</errorMessage>
+</ValidationRule>

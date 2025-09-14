@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Year_Of_Passing_Valid</fullName>
+    <active>true</active>
+    <errorConditionFormula>Year_of_Passing__c &gt; YEAR(TODAY())</errorConditionFormula>
+    <errorDisplayField>Year_of_Passing__c</errorDisplayField>
+    <errorMessage>Year of Passing cannot be in the future</errorMessage>
+</ValidationRule>
